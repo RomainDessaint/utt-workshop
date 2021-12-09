@@ -25,10 +25,6 @@ requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 
-package: 
-	$(PYTHON_INTERPRETER) -m setup.py build
-	$(PYTHON_INTERPRETER) -m setup.py install
-
 ## Make Dataset
 data: requirements
 	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/processed
