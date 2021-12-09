@@ -4,8 +4,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
     
 setup(
-    name='utt-workshop',
-    packages=find_packages(),
+    name='uttworkshop',
+    packages=find_packages("src"),
+    package_dir={"": "src"},
     version='0.1.0',
     description=long_description,
     long_description_content_type="text/markdown",
