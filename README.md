@@ -4,7 +4,7 @@ utt-test
 utt cookiecutter workshop
 <br/><br/>
 VIRTUAL ENV :
-<br/><br/>
+------------
 Installer la librairie virtualenv :<br/> 
 pip install virtualenv
 <br/><br/>
@@ -29,7 +29,14 @@ deactivate
 Dans un terminal :
 (nom_de_votre_environnement_virtuel) en début de ligne indique que vous travaillez sur votre environnement virtuel
 <br/><br/>    
- 
+
+PACKAGE THE PROJECT :
+------------
+Run : <br/>
+- python setup.py build
+- python setup.py install
+<br/><br/>
+
 Project Organization
 ------------
 
