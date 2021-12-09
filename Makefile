@@ -1,4 +1,4 @@
-.PHONY: clean data lint requirements sync_data_to_s3 sync_data_from_s3
+.PHONY: clean data lint requirements package sync_data_to_s3 sync_data_from_s3
 
 #################################################################################
 # GLOBALS                                                                       #
@@ -24,6 +24,10 @@ endif
 requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
+
+package: 
+	$(PYTHON_INTERPRETER) -m pip setup.py build
+	$(PYTHON_INTERPRETER) -m pip setup.py install
 
 ## Make Dataset
 data: requirements
