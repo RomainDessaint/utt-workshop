@@ -1,7 +1,7 @@
 utt-test
 ==============================
 
-utt cookiecatter workshop
+utt cookiecutter workshop
 <br/><br/>
 VIRTUAL ENV :
 <br/><br/>
@@ -13,6 +13,10 @@ virtualenv nom_de_votre_environnement_virtuel
 <br/><br/>
 Activer votre environnement virtuel :<br/> 
 path/to/your/virtual/env/Scripts/activate
+<br/><br/>
+Si problème d'autorisation pour lancer des scripts : <\br>
+Sur Windows : exécuter Powershell en tant qu'administrateur <\br>
+Puis exécuter : set-executionpolicy unrestricted
 <br/><br/>
 Installer les librairies requises au projet dans votre environnement virtuel :<br/> 
 pip install -r .\requirements.txt
