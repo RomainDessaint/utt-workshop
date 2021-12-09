@@ -26,8 +26,8 @@ requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 
 package: 
-	$(PYTHON_INTERPRETER) -m pip setup.py build
-	$(PYTHON_INTERPRETER) -m pip setup.py install
+	$(PYTHON_INTERPRETER) -m setup.py build
+	$(PYTHON_INTERPRETER) -m setup.py install
 
 ## Make Dataset
 data: requirements
