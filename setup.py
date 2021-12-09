@@ -4,7 +4,7 @@ setup(
     name='src',
     packages=find_packages(),
     version='0.1.0',
-    description='utt cookiecatter workshop',
+    description='utt cookiecutter workshop',
     author='Romain DESSAINT',
     license='',
 )
