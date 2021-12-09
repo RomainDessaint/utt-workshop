@@ -1,8 +1,35 @@
 utt-test
 ==============================
 
-utt cookiecatter workshop
-
+utt cookiecutter workshop
+<br/><br/>
+VIRTUAL ENV :
+<br/><br/>
+Installer la librairie virtualenv :<br/> 
+pip install virtualenv
+<br/><br/>
+Créer votre environnement virtuel:<br/> 
+virtualenv nom_de_votre_environnement_virtuel
+<br/><br/>
+Activer votre environnement virtuel :<br/> 
+path/to/your/virtual/env/Scripts/activate
+<br/><br/>
+Si problème d'autorisation pour lancer des scripts : <br/>
+Sur Windows : exécuter Powershell en tant qu'administrateur <br/>
+Puis exécuter : set-executionpolicy unrestricted
+<br/><br/>
+Installer les librairies requises au projet dans votre environnement virtuel :<br/> 
+pip install -r .\requirements.txt
+<br/><br/>
+Travailler lol
+<br/><br/> 
+Désactiver votre environnement virtuel :<br/> 
+deactivate
+<br/><br/> 
+Dans un terminal :
+(nom_de_votre_environnement_virtuel) en début de ligne indique que vous travaillez sur votre environnement virtuel
+<br/><br/>    
+ 
 Project Organization
 ------------
 
